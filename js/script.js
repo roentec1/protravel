@@ -11,13 +11,24 @@
 const whatsappNumber = "528180165371"; // Número real de ProTravel (sin + ni espacios)
 
 const socialLinks = {
-    facebook: "AQUI_LINK_FACEBOOK",   // Reemplazar con URL real
-    instagram: "AQUI_LINK_INSTAGRAM", // Reemplazar con URL real
+    facebook: "https://www.facebook.com/protravel.mx",   // Reemplazar con URL real
+    instagram: "https://www.instagram.com/protravel.mx/", // Reemplazar con URL real
     tiktok: "AQUI_LINK_TIKTOK",       // Reemplazar con URL real
     whatsapp: `https://wa.me/${whatsappNumber}`
 };
 
-const defaultWhatsAppMessage = "Hola ProTravel, requiero información sobre paquetes en promoción.";
+const defaultWhatsAppMessage = `¡Hola buen día! contamos con distintos paquetes, nos pudieras apoyar contestando las siguientes preguntas:
+
+👨‍👩‍👧‍👦¿Para cuántas personas sería el viaje?
+Si hay menores, ¿Qué edades tienen?
+
+📆¿En qué fechas sería?
+
+📌¿Durante cuantos días?
+
+🏨¿Buscabas un hotel en especial o le recomendaron alguno?
+
+🗺️¿A qué destino sería?`;
 
 /* ============================================
    DESTINOS - Fácil de ampliar
